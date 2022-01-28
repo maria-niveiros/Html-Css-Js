@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgrey;
+    height: 100%;
+}
+.tarjeta {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    width: 60%;
+    height: 420px;
+    margin: auto;
+    padding: 7%;
+    background-image: url(../img/pattern-bg.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    box-shadow: 10px 10px 30px grey;
+}
+.picture {
+    width: 100%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 30px grey;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    background-image: url(../img/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-size: 15%;
+    font-size: 20px;
+    line-height: 2.5rem;
+    width: 60%;
+}
+.texto {
+    line-height: 1.5rem;
+}
+.datos {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.botones {
+    display: flex;
+    background-color: white;
+    width: 20%;
+    border-radius: 20px;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+    position: relative;
+    top: 39%;
+    left: 10px;
+    box-shadow: 10px 10px 30px grey;
+}
